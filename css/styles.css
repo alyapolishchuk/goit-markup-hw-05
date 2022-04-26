@@ -29,8 +29,6 @@ body {
 .footer-location:hover,
 .footer-location:focus {
     color: #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .logo-name,
@@ -53,15 +51,11 @@ body {
 .button:hover,
 .button:focus {
     color: #ffffff;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
 }
 
 .decisions-button:hover,
 .decisions-button:focus {
     background-color: #188CE8;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
 }
 
 
@@ -88,8 +82,6 @@ transition-duration: 250ms;
 .list .button:hover,
 .list .button:focus {
     background-color: #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .decisions-title,
@@ -182,8 +174,6 @@ font-style: normal;
 .portfolio-link:hover .portfolio-hidden-text,
 .portfolio-link:focus .portfolio-hidden-text {
     transform: translateY(0%);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .list-title {
@@ -606,8 +596,6 @@ img {
 .adress-nav:hover>.icon-nav,
 .adress-nav:focus>.icon-nav {
     fill: #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .adress-nav {
@@ -668,16 +656,12 @@ img {
 .social-media-link:hover>.social-media-icon,
 .social-media-link:focus>.social-media-icon {
     fill: #ffffff;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .social-media-link:hover,
 .social-media-link:focus {
     background-color: #2196F3;
     fill: #ffffff;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .join-title {
@@ -721,8 +705,6 @@ img {
 .join-link:hover,
 .join-link:focus {
     background: #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .footer-section {
@@ -781,15 +763,12 @@ img {
 .client-link:hover,
 .client-link:focus{
     border: 1px solid #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
+    
 }
 
 .client-link:hover>.client-icon,
 .client-link:focus>.client-icon{
     fill: #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .clients {
@@ -803,8 +782,6 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
 }
 
 .button:hover,
@@ -812,8 +789,6 @@ img {
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 0px 1px 2px rgba(0, 0, 0, 0.08),
 0px 2px 2px rgba(0, 0, 0, 0.12);
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
 }
 
 .modal-button {
@@ -929,5 +904,26 @@ transition-duration: 250ms;
     }
 }
 
-
+.logo,
+.site-nav .link,
+.adress-nav,
+.list .button,
+.footer-link,
+.footer-location,
+.logo-name-footer,
+.decisions,
+.footer-location,
+.decisions-button,
+.button,
+.portfolio-link .portfolio-hidden-text,
+.adress-nav>.icon-nav,
+.social-media-link>.social-media-icon,
+.social-media-link,
+.join-link,
+.client-link,
+.client-link>.client-icon,
+.portfolio-link {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
 
